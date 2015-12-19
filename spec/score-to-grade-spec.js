@@ -62,4 +62,8 @@ describe('score-to-grade-spec', function() {
     var result = function(){single_element(v_score1)};
     expect(result).toThrowError('input invalid');
   });
+  it('invalid_score is not a number', function() {
+    var result = function(){single_element('abc')};
+    expect(result).toThrowError('input is not a number');
+  });
 });
