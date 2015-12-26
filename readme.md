@@ -14,3 +14,7 @@ When the input score is >= 0 and < 60, return "D"
 
 
 Jasmine 2.4 API refenence (http://jasmine.github.io/2.4/introduction.html)
+
+### 备注
+
+TW大讲堂：第八次课Mini TWU--课堂练习
